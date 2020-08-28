@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.roster-logo {
+  height: 55px;
+  width: 55px;
+  fill: whitesmoke;
+  padding-left: 15%;
+  margin-left: 15%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  overflow-x: hidden;
+
+}
+
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.sort-button {
+  background: transparent;
+  float: right;
+}
+
+.aws-logo {
+  height: 25px;
+  width: 25px;
+  fill: whitesmoke;
+  padding-right: 5px;
+}
+
+.dashboard-aws-logo {
+  height: 50px;
+  width: 50px;
+  fill: whitesmoke;
+  padding-right: 5px;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.main-content {
+  position: relative;
+  margin-left: 15%;
+}
+
+.region-dropdown {
+  margin-right: 45px;
+
+
+  z-index: 5;
+  position: relative;
+}
+
+.account-dropdown {
+  padding-top: 4%;
+  z-index: 5;
+  position: relative;
+}
+
+.region-dropdown .region-dropdown-menu {
+  min-width: 9.5rem;
+}
+
+.region-dropdown .region-btn-secondary {
+  border-color: #44d03f;
+  box-shadow: none;
+}
+
+.roster-text {
+  margin-top: 2px;
+  font-size: xx-large;
+  color: whitesmoke;
+}
+
+.container {
+  max-width: fit-content;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.show {
+  opacity: 1;
+}
+
+.alerts-styles {
+  border-style: solid;
+  border-color: navy
+}
+
+.table-element {
+  padding-top: 50px;
+}
+
+.cardscloud {
+  padding-top: 30px;
+}
+
+.ec2 {
+  padding-top: 20px;
+}
+
+.navbar1 {
+  background-image: linear-gradient(to top, #6f86d6 100%, #48c6ef 0%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.loader {
+
+  position: fixed;
+  /* or absolute */
+  top: 50%;
+  left: 50%;
+
+
+}
