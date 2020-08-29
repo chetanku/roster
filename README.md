@@ -66,3 +66,39 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### `AWS ROLE POLICIES`
+JSON
+----
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:DescribeAlarms",
+                "cloudwatch:GetMetricWidgetImage",
+                "elasticloadbalancing:DescribeLoadBalancers",
+                "ce:GetCostAndUsage",
+                "ce:GetCostForecast",
+                "ec2:DescribeInstances",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeRegions",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeInstanceStatus",
+                "elasticmapreduce:ListClusters",
+                "elasticmapreduce:DescribeCluster",
+                "kafka:ListClusters",
+                "rds:DescribeDBInstances",
+                "sts:GetCallerIdentity"
+            ],
+           
+            "Resource": "*"
+        }
+    ]
+}
+```
+
