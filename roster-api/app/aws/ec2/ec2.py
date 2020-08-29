@@ -35,13 +35,13 @@ def get_ec2():
             if "PublicIpAddress" in i.keys():
                 ec2.append({"InstanceId": i['InstanceId'], "InstanceType": i['InstanceType'],
                             "Env": tags['Env'], "Name": tags['Name'],
-                            "KeyName": i['KeyName'], "State": i['State']['Name'],
+                            "State": i['State']['Name'],
                             "PrivateIpAddress": i["PrivateIpAddress"], "PublicIpAddress": i["PublicIpAddress"],
                             "PublicDnsName": i["PublicDnsName"], "SubnetId": i["SubnetId"], "VpcId": i["VpcId"]})
             else:
                 ec2.append({"InstanceId": i['InstanceId'], "InstanceType": i['InstanceType'],
                             "Env": tags['Env'], "Name": tags['Name'],
-                            "KeyName": i['KeyName'], "State": i['State']['Name'],
+                            "State": i['State']['Name'],
                             "PrivateIpAddress": i["PrivateIpAddress"], "SubnetId": i["SubnetId"], "VpcId": i["VpcId"]})
     return jsonify(ec2)
 
