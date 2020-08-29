@@ -63,7 +63,7 @@ PS: Env variable CREDS  will required to access COST SUMMARY page, If you enter 
 
 ### `2. Running roster-ui Docker Container `
 
-Before building roster-ui, we have to add a edit a variable "awsbaseURL" in config.js. Enter your hostname or server-ip where roster-api is running.
+Before building roster-ui, edit a variable "awsbaseURL" in config.js. Enter your hostname or server-ip where roster-api is running.
 
 ```
 cd roster/roster-ui/src 
@@ -71,12 +71,9 @@ cd roster/roster-ui/src
 config.js:
 ```
 export const appConfig = {
-    awsbaseURL: "http://enter-your-ip,hostname-here/api/aws/",
+    awsbaseURL: "http://enter-your-ip-or-hostname-here/api/aws/",
 };
 ```
-
-
-
 
 ```
 cd roster-ui && docker build -t roster-ui:latest .
