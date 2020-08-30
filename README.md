@@ -88,8 +88,10 @@ docker run --name roster -p 80:80 -d roster-ui:latest
 ```
 cd roster/roster-ui
 npm start
+http://localhost:3000
 ```
 ```
 cd roster/roster-api
 python3 app.py
+http://localhost:5000/api/aws/
 ```
