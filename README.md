@@ -59,7 +59,7 @@ If you are using AWS aws_access_key_id and aws_secret_access_keys
 docker run --name roster-api -p 8082:5000 --env CREDS="password" --env AWS_DEFAULT_REGION="default region name" --env AWS_ACCESS_KEY_ID="Enter your KEY_ID" --env AWS_SECRET_ACCESS_KEY="Enter your ACCESS_KEY" -d roster-api:latest
 ```
 
-PS: Env variable CREDS  will required to access COST SUMMARY page, If you enter wrong credentials while accessing the COST SUMMARY page, try opening it in new tab
+PS: Env variable CREDS  will required to access COST SUMMARY page, If you enter wrong credentials while accessing the COST SUMMARY page, try opening it in a new tab
 
 ### `2. Running roster-ui Docker Container `
 
