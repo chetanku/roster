@@ -1,4 +1,4 @@
-Setting up roster:
+Setting up roster :
 
 ### `1. Granting Permissions to access AWS using IAM Roles`
 
