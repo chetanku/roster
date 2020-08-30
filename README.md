@@ -80,3 +80,14 @@ cd roster-ui && docker build -t roster-ui:latest .
 ```
 docker run --name roster -p 80:80 -d roster-ui:latest
 ```
+
+`To setup without using docker container`
+
+```
+cd roster/roster-ui
+npm start
+```
+```
+cd roster/roster-api
+python3 app.py
+```
