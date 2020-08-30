@@ -93,5 +93,6 @@ http://localhost:3000
 ```
 cd roster/roster-api
 python3 app.py
-http://localhost:5000/api/aws/ec2
+http://localhost:5000/api/
+http://localhost:5000/api/ping/
 ```
