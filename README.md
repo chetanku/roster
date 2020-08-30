@@ -1,3 +1,5 @@
+Demo: [roster](http://aws-load-balancer-1-2031635248.us-east-2.elb.amazonaws.com/)
+
 Setting up roster :
 
 ### `1. Granting Permissions to access AWS using IAM Roles`
@@ -81,7 +83,7 @@ cd roster-ui && docker build -t roster-ui:latest .
 docker run --name roster -p 80:80 -d roster-ui:latest
 ```
 
-`To setup without using docker container`
+######To setup without using docker container
 
 ```
 cd roster/roster-ui
