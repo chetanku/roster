@@ -43,8 +43,6 @@ Alternatively, you can use AWS Secret Key and ID as well and declare them when r
 
 ### `2. Running roster-api Docker Container `
 
-
-
 ```
 cd roster-api && docker build -t roster-api:latest .
 ```
@@ -61,7 +59,7 @@ docker run --name roster-api -p 8082:5000 --env CREDS="password" --env AWS_DEFAU
 
 PS: Env variable CREDS  will required to access COST SUMMARY page, If you enter wrong credentials while accessing the COST SUMMARY page, try opening it in a new tab
 
-### `2. Running roster-ui Docker Container `
+### `3. Running roster-ui Docker Container `
 
 Before building roster-ui, edit a variable "awsbaseURL" in config.js. Enter your hostname or server-ip where roster-api is running.
 
