@@ -96,3 +96,5 @@ python3 app.py
 http://localhost:5000/api/
 http://localhost:5000/api/ping/
 ```
+## To populate Environment columns in the table
+Please make sure to create tags with key name "env" with value of the environment
