@@ -23,7 +23,6 @@
     "lodash.sortby": "^4.7.0",
     "material-table": "^1.68.1",
     "moment": "^2.27.0",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-currency-formatter": "^1.1.0",
     "react-datetime": "^2.16.3",
@@ -35,7 +34,8 @@
     "react-sidebar": "^3.0.2",
     "react-tooltip": "^4.2.8",
     "reactstrap": "^8.5.1",
-    "rsuite": "^4.8.1"
+    "rsuite": "^4.8.1",
+    "sass": "^1.69.3"
   },
   "scripts": {
     "start": "react-scripts start",
